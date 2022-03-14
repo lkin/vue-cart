@@ -63,6 +63,7 @@ export const useCartStore = defineStore({
     add(productId: number) {
       if (this.contents[productId]) {
         this.contents[productId].quantity += 1;
+        // return;
       } else {
         this.contents[productId] = {
           productId,

@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {
+    @font-face {
+        font-family: 'Conduit';
+        font-weight: bold;
+        src: url('../fonts/conduit/@font-face/e8d1660b0c3738e3d5138b97ff2b7a47.woff') format('woff');
+        src: url('../fonts/conduit/@font-face/e8d1660b0c3738e3d5138b97ff2b7a47.woff2') format('woff2')
+    }
+      @font-face {
+        font-family: 'Novarese';
+        font-weight: normal;
+        src: url('../fonts/conduit/@font-face/e8d1660b0c3738e3d5138b97ff2b7a47.woff') format('woff');
+        src: url('../fonts/novarese/@font-face/e7bf0918ca9a2dc3883c6fa21df1e682.woff2') format('woff2')
+    }
+}
